@@ -13,20 +13,25 @@
     "domain":  "calculatesupply.com",
     "pages":  [
                   {
-                      "path":  "/vsl1/",
-                      "template":  "Quiz-ps-CogniClear",
-                      "type":  "ps"
+                      "type":  "ps",
+                      "template":  "Quiz-ps-CogniClear-v2",
+                      "path":  "/vsl1/"
                   },
                   {
-                      "path":  "/vsl1/pv-cognC/",
+                      "type":  "vsl",
                       "template":  "CBS-vsl-CogniClear",
-                      "type":  "vsl"
+                      "path":  "/vsl1/pv-cognC/"
                   },
                   {
-                      "path":  "/quiz/",
+                      "type":  "ps",
                       "template":  "Quiz-ps-CogniClear",
-                      "type":  "ps"
+                      "path":  "/quiz-cogni-v1/"
+                  },
+                  {
+                      "type":  "ps",
+                      "template":  "Quiz-ps-CogniClear",
+                      "path":  "/quiz/"
                   }
-              ]
+              ],
+    "last_deployed_at":  "2026-11-21T00:26:51Z"
 }
-
